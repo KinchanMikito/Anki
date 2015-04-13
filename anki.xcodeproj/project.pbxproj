@@ -14,6 +14,8 @@
 		EA6810D11A9F338A00DF48F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA6810D01A9F338A00DF48F6 /* Images.xcassets */; };
 		EA6810D41A9F338A00DF48F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6810D21A9F338A00DF48F6 /* LaunchScreen.xib */; };
 		EA6810E01A9F338A00DF48F6 /* ankiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6810DF1A9F338A00DF48F6 /* ankiTests.m */; };
+		EA6810EB1A9F391200DF48F6 /* ViewControllerAnki.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6810EA1A9F391200DF48F6 /* ViewControllerAnki.m */; };
+		EABC920F1AA06C4C0058F79B /* ViewControllerMinaoshi.m in Sources */ = {isa = PBXBuildFile; fileRef = EABC920E1AA06C4C0058F79B /* ViewControllerMinaoshi.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		EA6810D91A9F338A00DF48F6 /* ankiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ankiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6810DE1A9F338A00DF48F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA6810DF1A9F338A00DF48F6 /* ankiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ankiTests.m; sourceTree = "<group>"; };
+		EA6810E91A9F391200DF48F6 /* ViewControllerAnki.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerAnki.h; sourceTree = "<group>"; };
+		EA6810EA1A9F391200DF48F6 /* ViewControllerAnki.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerAnki.m; sourceTree = "<group>"; };
+		EABC920D1AA06C4C0058F79B /* ViewControllerMinaoshi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerMinaoshi.h; sourceTree = "<group>"; };
+		EABC920E1AA06C4C0058F79B /* ViewControllerMinaoshi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerMinaoshi.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				EA6810C81A9F338A00DF48F6 /* AppDelegate.m */,
 				EA6810CA1A9F338A00DF48F6 /* ViewController.h */,
 				EA6810CB1A9F338A00DF48F6 /* ViewController.m */,
+				EA6810E91A9F391200DF48F6 /* ViewControllerAnki.h */,
+				EA6810EA1A9F391200DF48F6 /* ViewControllerAnki.m */,
+				EABC920D1AA06C4C0058F79B /* ViewControllerMinaoshi.h */,
+				EABC920E1AA06C4C0058F79B /* ViewControllerMinaoshi.m */,
 				EA6810CD1A9F338A00DF48F6 /* Main.storyboard */,
 				EA6810D01A9F338A00DF48F6 /* Images.xcassets */,
 				EA6810D21A9F338A00DF48F6 /* LaunchScreen.xib */,
@@ -220,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA6810CC1A9F338A00DF48F6 /* ViewController.m in Sources */,
+				EA6810EB1A9F391200DF48F6 /* ViewControllerAnki.m in Sources */,
+				EABC920F1AA06C4C0058F79B /* ViewControllerMinaoshi.m in Sources */,
 				EA6810C91A9F338A00DF48F6 /* AppDelegate.m in Sources */,
 				EA6810C61A9F338A00DF48F6 /* main.m in Sources */,
 			);
@@ -412,6 +424,7 @@
 				EA6810E51A9F338A00DF48F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA6810E61A9F338A00DF48F6 /* Build configuration list for PBXNativeTarget "ankiTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				EA6810E81A9F338A00DF48F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

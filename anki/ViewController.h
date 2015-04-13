@@ -8,8 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NSString *stringA[5000];
+NSString *stringB[5000];
 
+int stringCounter;//設定されているstringの数をカウントする変数
+
+@interface ViewController : UIViewController{
+    
+    IBOutlet UITextField *textFieldA;
+    IBOutlet UITextField *textFieldB;
+    
+    IBOutlet UILabel *label;
+    
+}
+
+-(IBAction)tapSetMore:(id)sender;
 
 @end
 
